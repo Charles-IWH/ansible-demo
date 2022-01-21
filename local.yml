@@ -5,5 +5,3 @@
     apt: name=zsh
   - name: Change shell to zsh
     shell: chsh -s $(which zsh)
-  - name: Oh-My-Zsh
-    shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh > ~/.oh-my-installer && chmod +x ~/.oh-my-installer && ~/.oh-my-installer
